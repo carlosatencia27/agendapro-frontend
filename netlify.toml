@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Redireccionar todas las rutas a index.html para React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Variables de entorno para producción
+[context.production.environment]
+  REACT_APP_API_URL = "https://api.agendapro.com/v1"
+  REACT_APP_ENV = "production"
+
+# Variables para entorno de pruebas
+[context.staging.environment]
+  REACT_APP_API_URL = "https://staging-api.agendapro.com/v1"
+  REACT_APP_ENV = "staging"
