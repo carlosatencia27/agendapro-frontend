@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# 📅 AgendaPro - Sistema de Gestión de Citas
 
 
@@ -596,3 +597,6 @@ Carlos Daniel Atencia García
 
 \*\*Año:\*\* 2025
 
+=======
+# agendapro_frontend
+>>>>>>> 3ad3d9114de592672116c52d50934340d99b1376
