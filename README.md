@@ -285,7 +285,7 @@ PORT=3001 npm start
 **Universidad:** Corporación Universitaria Iberoamericana  
 **Asignatura:** Electiva Disciplinar II  
 **Docente:** Joaquín Sánchez  
-**Año:** 2024
+**Año:** 2025
 
 ---
 
